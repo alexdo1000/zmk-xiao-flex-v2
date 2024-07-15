@@ -22,7 +22,7 @@
 &kp LOCKING_CAPS  &kp A   &kp S   &kp D      &kp F      &kp G           &kp H    &kp J    &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C      &kp V      &kp B           &kp N    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
                                   &kp LSHFT  &kp SPACE  &kp BSPC        &kp DEL  &kp RET  &kp RGUI
-                                  &kp LCTRL  &kp LALT   &kp LEFT_GUI    &to 1    &to 2    &to 3
+                                  &kp LCTRL  &kp LALT   &kp LEFT_GUI    &to 0    &to 1    &to 2
             >;
         };
 
