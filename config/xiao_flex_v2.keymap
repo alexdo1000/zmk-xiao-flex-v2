@@ -17,12 +17,12 @@
 
         default_layer {
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3     &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp N9   &kp N0    &mt EQUAL MINUS
-&kp TAB         &kp Q   &kp W   &kp E      &kp R      &kp T           &kp Y      &kp U      &kp I      &kp O    &kp P     &mt RIGHT_BRACKET LEFT_BRACKET
-&kp CAPSLOCK    &kp A   &kp S   &kp D      &kp F      &kp G           &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C      &kp V      &kp B           &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                                &to 1      &kp SPACE  &kp BSPC        &kp DEL    &kp RET    &kp RGUI
-                                &kp LCTRL  &kp LALT   &kp LEFT_GUI    &mkp LCLK  &mkp RCLK  &mkp MCLK
+&kp ESC         &kp N1  &kp N2  &kp N3     &kp N4     &kp N5          &kp N6          &kp N7          &kp N8           &kp N9   &kp N0    &mt EQUAL MINUS
+&kp TAB         &kp Q   &kp W   &kp E      &kp R      &kp T           &kp Y           &kp U           &kp I            &kp O    &kp P     &mt RIGHT_BRACKET LEFT_BRACKET
+&kp CAPSLOCK    &kp A   &kp S   &kp D      &kp F      &kp G           &kp H           &kp J           &kp K            &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C      &kp V      &kp B           &kp N           &kp M           &kp COMMA        &kp DOT  &kp FSLH  &kp BSLH
+                                &to 1      &kp SPACE  &kp BSPC        &kp BACKSPACE   &kp RET         &kp UP_ARROW
+                                &kp LCTRL  &kp LALT   &kp LEFT_GUI    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -32,7 +32,7 @@
 &trans  &trans  &caps_word  &trans            &trans        &trans          &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp N6  &kp MINUS
 &trans  &trans  &trans      &trans            &trans        &trans          &trans     &kp TAB    &kp N1          &kp N2     &kp N3  &kp PLUS
 &trans  &trans  &trans      &kp C             &kp V         &trans          &trans     &trans     &trans          &trans     &trans  &trans
-                            &to 0             &trans        &trans          &trans     &trans     &trans
+                            &to 0             &trans        &trans          &kp DEL    &trans     &trans
                             &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI    &trans     &trans     &to 2
             >;
         };
