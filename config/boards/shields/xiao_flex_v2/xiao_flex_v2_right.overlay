@@ -51,9 +51,6 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <4>;
-        scroll-tick = <20>;
-        invert-scroll-x;
-        invert-scroll-y;
     };
 };
 
