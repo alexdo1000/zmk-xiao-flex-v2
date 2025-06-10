@@ -101,6 +101,7 @@
             >;
 
             label = "scroll_tap";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
