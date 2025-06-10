@@ -17,7 +17,6 @@
         backspace_del: backspace_del {
             compatible = "zmk,behavior-key-press";
             #binding-cells = <1>;
-            bindings = <&kp BACKSPACE>;
             repeat-delay-ms = <200>;
             repeat-rate-ms = <50>;
         };
