@@ -17,10 +17,10 @@
         backspace_del: backspace_del {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
-            bindings = <&mo>, <&kp>;
+            bindings = <&kp>, <&kp>;
         };
 
         scroll_encoder: scroll_encoder {
