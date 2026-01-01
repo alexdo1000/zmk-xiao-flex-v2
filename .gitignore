@@ -5,3 +5,4 @@ zmk/
 .west/
 build/
 sofle-hybrid-ergomech-zmk
+**/.DS_Store

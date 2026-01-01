@@ -1,5 +1,7 @@
 # ZMK Firmware for Custom Dactyl Manuform Keyboard
 
+![Custom Dactyl Manuform Keyboard](public/blacked-out-dactyl-with-trackball.jpg)
+
 A custom firmware configuration for my hand-built Dactyl Manuform split wireless Bluetooth keyboard, built with [ZMK](https://zmk.dev/) firmware. This keyboard is my daily driver for software development and coding.
 
 ## Overview
