@@ -1,14 +1,14 @@
-if SHIELD_XIAO_FLEX_V2_LEFT
+if SHIELD_XIAO_FLEX_V2_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "xiao_flex_v2"
+    default "Xiao_5x6+5_TB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_XIAO_FLEX_V2
+if SHIELD_XIAO_FLEX_V2_LEFT || SHIELD_XIAO_FLEX_V2_RIGHT
 
 config ZMK_SPLIT
     default y
